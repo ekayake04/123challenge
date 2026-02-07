@@ -9,6 +9,7 @@ services:
             DEBUG: 'true'
             PHP_IDE_CONFIG: "serverName=_"
             XDEBUG_SESSION: '_'
+            DATABASE_URL: "mysql://root:root@db:3306/vtc-db?serverVersion=5.7&charset=utf8mb4"
         extra_hosts:
             - "host.docker.internal:host-gateway"
         ports:
