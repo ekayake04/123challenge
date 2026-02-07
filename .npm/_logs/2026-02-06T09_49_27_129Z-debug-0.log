@@ -1,0 +1,35 @@
+0 verbose cli /usr/local/bin/node /usr/local/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v18.20.8
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/app/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm exec yarn@1.22.19 install
+7 verbose argv "exec" "--yes" "--" "yarn@1.22.19" "install"
+8 verbose logfile logs-max:10 dir:/app/.npm/_logs/2026-02-06T09_49_27_129Z-
+9 verbose logfile /app/.npm/_logs/2026-02-06T09_49_27_129Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:2105016320 maxSize:526254080 maxEntrySize:263127040
+12 http fetch GET 200 https://registry.npmjs.org/yarn 261ms (cache miss)
+13 silly packumentCache heap:2105016320 maxSize:526254080 maxEntrySize:263127040
+14 silly packumentCache heap:2105016320 maxSize:526254080 maxEntrySize:263127040
+15 silly idealTree buildDeps
+16 silly fetch manifest yarn@1.22.19
+17 silly packumentCache full:https://registry.npmjs.org/yarn cache-miss
+18 http fetch GET 200 https://registry.npmjs.org/yarn 11ms (cache hit)
+19 silly packumentCache full:https://registry.npmjs.org/yarn set size:432480 disposed:false
+20 silly placeDep ROOT yarn@1.22.19 OK for:  want: 1.22.19
+21 silly reify moves {}
+22 silly audit bulk request { yarn: [ '1.22.19' ] }
+23 silly tarball no local data for yarn@https://registry.npmjs.org/yarn/-/yarn-1.22.19.tgz. Extracting by manifest.
+24 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 247ms
+25 silly audit report {}
+26 http fetch GET 200 https://registry.npmjs.org/yarn/-/yarn-1.22.19.tgz 407ms (cache miss)
+27 info run yarn@1.22.19 preinstall node_modules/yarn :; (node ./preinstall.js > /dev/null 2>&1 || true)
+28 info run yarn@1.22.19 preinstall { code: 0, signal: null }
+29 verbose cwd /app
+30 verbose os Linux 6.12.67-linuxkit
+31 verbose node v18.20.8
+32 verbose npm  v10.8.2
+33 verbose exit 0
+34 info ok

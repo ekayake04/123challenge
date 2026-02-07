@@ -1,0 +1,46 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.2
+2 info using node@v18.20.8
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/app/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm install yarn
+7 verbose argv "install" "--global" "yarn" "--unsafe-perm"
+8 verbose logfile logs-max:10 dir:/app/.npm/_logs/2026-02-06T09_48_14_369Z-
+9 verbose logfile /app/.npm/_logs/2026-02-06T09_48_14_369Z-debug-0.log
+10 silly packumentCache heap:2105016320 maxSize:526254080 maxEntrySize:263127040
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest yarn@*
+14 silly packumentCache full:https://registry.npmjs.org/yarn cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/yarn 311ms (cache miss)
+16 silly packumentCache full:https://registry.npmjs.org/yarn set size:undefined disposed:false
+17 silly placeDep ROOT yarn@1.22.22 OK for:  want: *
+18 silly reify moves {}
+19 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/yarn'
+20 error code EACCES
+21 error syscall mkdir
+22 error path /usr/local/lib/node_modules/yarn
+23 error errno -13
+24 error [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/yarn'] {
+24 error   errno: -13,
+24 error   code: 'EACCES',
+24 error   syscall: 'mkdir',
+24 error   path: '/usr/local/lib/node_modules/yarn'
+24 error }
+25 error
+25 error The operation was rejected by your operating system.
+25 error It is likely you do not have the permissions to access this file as the current user
+25 error
+25 error If you believe this might be a permissions issue, please double-check the
+25 error permissions of the file and its containing directories, or try running
+25 error the command again as root/Administrator.
+26 silly unfinished npm timer reify 1770371294604
+27 silly unfinished npm timer reify:createSparse 1770371294945
+28 verbose cwd /app
+29 verbose os Linux 6.12.67-linuxkit
+30 verbose node v18.20.8
+31 verbose npm  v10.8.2
+32 verbose exit -13
+33 verbose code -13
+34 error A complete log of this run can be found in: /app/.npm/_logs/2026-02-06T09_48_14_369Z-debug-0.log
